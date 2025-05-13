@@ -9,10 +9,6 @@ import asyncio
 import os
 import logging
 from collections import defaultdict
-from keep_alive import keep_alive
-
-# Запускаем keep_alive для Replit + UptimeRobot
-keep_alive()
 
 # Настройка логирования
 logging.basicConfig(
